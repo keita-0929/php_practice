@@ -46,7 +46,7 @@ for($i = $start; $i <= $end; $i++){
 //1.引数に数値を指定して実行すると、数値を2倍にして返す関数を作成してください
 function sum($num){
     $result = $num * 2;
-    echo $result;
+    return $result;
     echo "\n";
 }
 echo sum(1000);
@@ -54,7 +54,7 @@ echo sum(1000);
 //2.$a と $b を仮引数に持ち、　$a と $b　を足した結果を返す関数を作成してください。
 function f($a, $b){
     $result = $a + $b;
-    echo $result;
+    return $result;
     echo "\n";
 }
 echo f(10, 200);
