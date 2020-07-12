@@ -47,16 +47,14 @@ for($i = $start; $i <= $end; $i++){
 function sum($num){
     $result = $num * 2;
     return $result;
-    echo "\n";
-}
+    }
 echo sum(1000);
 
 //2.$a と $b を仮引数に持ち、　$a と $b　を足した結果を返す関数を作成してください。
 function f($a, $b){
     $result = $a + $b;
     return $result;
-    echo "\n";
-}
+    }
 echo f(10, 200);
 
 /*3.$arr という配列の仮引数を持ち、数値が入った配列array(1, 3, 5 ,7, 9) 
